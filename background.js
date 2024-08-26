@@ -108,7 +108,7 @@ function scrapeFollowing() {
             return;
         }
 
-        await delay(2000);
+        await delay(5000);
 
         let modal;
         for (let i = 0; i < 20; i++) {
