@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Follower Scraper",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "downloads", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.instagram.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
