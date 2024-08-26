@@ -14,7 +14,7 @@ This Chrome extension allows you to scrape followers and following lists from an
 1. **Clone or Download the Repository**
    - Clone the repository using Git:
      ```bash
-     git clone https://github.com/yourusername/instagram-scraper-extension.git
+     git clone https://github.com/Mohit2005123/Instagram-Scraper.git
      ```
    - Or download the repository as a ZIP file and extract it.
 
